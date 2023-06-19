@@ -2,13 +2,13 @@
 header {
   background-image: linear-gradient(to bottom, #e79417, #FFB84C);
   box-sizing: border-box;
+  /*.btn{
+      margin: 1rem;
+  }*/
 }
 header img {
   height: 125px;
   width: 125px;
-}
-header .btn {
-  margin: 1rem;
 }
 header .Titulo {
   margin-top: 2rem;
