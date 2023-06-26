@@ -5,9 +5,6 @@ header {
         height: 125px;
         width: 125px;
     }
-    /*.btn{
-        margin: 1rem;
-    }*/
     .Titulo{
         margin-top: 2rem;
         font-size: 50px;
@@ -39,7 +36,7 @@ header {
   }
   @keyframes move-forever {
     0% {
-     transform: translate3d(-90px,0,0);
+      transform: translate3d(-90px,0,0);
     }
     100% { 
       transform: translate3d(85px,0,0);
@@ -48,8 +45,8 @@ header {
   /*Shrinking for mobile*/
   @media (max-width: 768px) {
     .waves {
-      height:40px;
-      min-height:40px;
+      /*height:40px;
+      min-height:40px;*/
     }
     .content {
         height:30vh;
